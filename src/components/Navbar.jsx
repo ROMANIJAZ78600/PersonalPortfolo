@@ -52,7 +52,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           className="md:hidden z-100"
           onClick={() => setShowMenu((prev) => !prev)}
         >
-          <button className="text-gray-400 focus:outline-none">
+          <button className="text-gray-400 dark:text-black focus:outline-none">
             <svg
               className="h-9 w-9"
               fill="none"
@@ -79,15 +79,17 @@ const Navbar = ({ darkMode, setDarkMode }) => {
         </div>
       </div>
       {showMenu && (
-        <div className="fixed inset-0 z-40 flex h-screen w-full items-center justify-center bg-black/95 backdrop-blur-md md:hidden">
+        <div className="fixed inset-0 z-40 flex h-screen w-full items-center justify-center bg-black/95 dark:bg-[#F2F1EC] backdrop-blur-md md:hidden">
           <div className="flex w-full flex-col items-center gap-4 !px-6 ">
-            <h1 className="text-3xl font-bold text-white">Roman Ijaz</h1>
+            <h1 className="text-3xl font-bold text-white dark:text-black">
+              Roman Ijaz
+            </h1>
             {links.map(([name, href]) => (
               <a
                 key={name}
                 href={href}
                 onClick={() => setShowMenu(false)}
-                className="w-full max-w-xs border border-white/10 bg-gray-900 rounded-md !px-4 !py-3 text-center text-xl font-medium text-gray-300 transition hover:bg-white/10 hover:text-cyan-400"
+                className="w-full max-w-xs border border-white/10 dark:border-black/10 bg-gray-900 dark:bg-gray-500 rounded-md !px-4 !py-3 text-center text-xl font-medium text-gray-300 dark:text-gray-200 transition hover:bg-white/10 hover:text-cyan-400"
               >
                 {name}
               </a>
@@ -97,7 +99,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             <a
               href="#contact"
               onClick={() => setShowMenu(false)}
-              className="!mt-4 w-full max-w-xs rounded-md bg-cyan-500 !px-4 !py-3 text-center text-lg font-medium text-white transition hover:bg-cyan-600"
+              className="!mt-4 w-full max-w-xs rounded-md bg-cyan-500 dark:bg-[#1b2bfb] !px-4 !py-3 text-center text-lg font-medium text-white transition hover:bg-cyan-600"
             >
               Let's Talk
             </a>
