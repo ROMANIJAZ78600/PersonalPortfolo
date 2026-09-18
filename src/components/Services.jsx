@@ -65,7 +65,7 @@ const Services = () => {
                 {service.title}
               </h3>
 
-              <p className="mt-4 leading-7 text-gray-500 dark:text-gray-600">
+              <p className="mt-4 leading-7 text-gray-300 dark:text-gray-400">
                 {service.description}
               </p>
             </div>

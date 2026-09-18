@@ -51,13 +51,13 @@ const Projects = () => {
                   {project.title}
                 </h3>
 
-                <p className="!mt-3 text-gray-500">{project.description}</p>
+                <p className="!mt-3 text-gray-300">{project.description}</p>
 
                 <div className="!mt-5 flex flex-wrap gap-2">
                   {project.tech.map((item) => (
                     <span
                       key={item}
-                      className="rounded-full bg-white/5 dark:bg-black/5 !px-3 !py-1 text-xs text-gray-400 dark:text-gray-600"
+                      className="rounded-full bg-white/5 dark:bg-black/5 !px-3 !py-1 text-xs text-gray-300 dark:text-gray-400"
                     >
                       {item}
                     </span>

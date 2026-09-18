@@ -35,7 +35,7 @@ const Skills = () => {
           {skills.map((skill) => (
             <div
               key={skill}
-              className="rounded-xl border border-white/10 dark:border-black/10 dark:bg-black/10 bg-white/[0.03] !px-6 !py-4 text-gray-300 dark:text-gray-600 transition hover:-translate-y-1 hover:border-cyan-400/40 dark:hover:border-[#1b2fbf]/40 dark:hover:text-[#1b2fbf]"
+              className="rounded-xl border border-white/10 dark:border-black/10 dark:bg-black/10 bg-white/[0.03] !px-6 !py-4 text-gray-300 dark:text-gray-400 transition hover:-translate-y-1 hover:border-cyan-400/40 dark:hover:border-[#1b2fbf]/40 dark:hover:text-[#1b2fbf]"
             >
               {skill}
             </div>

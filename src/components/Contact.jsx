@@ -11,10 +11,10 @@ const Contact = () => {
 
         <h2 className="!mt-4 text-4xl font-bold md:text-6xl dark:text-black">
           Let's build something
-          <span className="block text-gray-500">great together.</span>
+          <span className="block text-gray-300">great together.</span>
         </h2>
 
-        <p className="!mx-auto !mt-6 max-w-xl text-gray-400 dark:text-gray-600">
+        <p className="!mx-auto !mt-6 max-w-xl text-gray-400 dark:text-gray-400">
           Have a project in mind? Send me a message and let's discuss how I can
           help.
         </p>

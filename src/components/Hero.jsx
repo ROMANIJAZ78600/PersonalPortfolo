@@ -16,14 +16,14 @@ const Hero = () => {
           </p>
           <h1 className="text-5xl dark:text-black font-bold leading-tight sm:text-6xl lg:text-7xl">
             Building
-            <span className="block text-gray-500 dark:text-gray-400">
+            <span className="block text-gray-300 dark:text-gray-400">
               Digital Experiences.
             </span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg leading-8 text-gray-400 dark:text-gray-600">
-            I'm Roman, a frontend developer focused on building modern,
-            responsive and high-performance web applications using React and
-            modern technologies.
+          <p className="mt-6 max-w-xl text-lg leading-8 text-gray-400 dark:text-gray-400">
+            I'm Roman, a React.js and MERN Stack Web Developer from Lahore,
+            focused on building modern, responsive, and high-performance web
+            applications using React and modern technologies.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a
@@ -50,7 +50,7 @@ const Hero = () => {
             <div className="flex h-full items-center justify-center !p-5 rounded-2xl border border-cyan-400/20 dark:border-[#1b2fbf]/40 bg-gradient-to-br dark:bg-gradient-to-br from-cyan-400/10 dark:from-[#1b2fbf]/40 to-transparent dark:to-transparent">
               <img
                 src="https://static.vecteezy.com/system/resources/thumbnails/036/498/120/small/ai-generated-3d-cartoon-character-a-confident-male-with-crossed-arms-isolated-on-transparent-background-png.png"
-                alt=""
+                alt="Roman Ijaz - Web Developer"
                 className="h-full w-full rounded-2xl object-cover"
               />
             </div>

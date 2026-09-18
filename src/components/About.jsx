@@ -10,13 +10,13 @@ const About = () => {
 
         <h2 className="mt-4 text-4xl font-bold md:text-5xl dark:text-black">
           I turn ideas into
-          <span className="text-gray-500 dark:text-gray-400">
+          <span className="text-gray-300 dark:text-gray-400">
             {" "}
             real products.
           </span>
         </h2>
 
-        <p className="mt-8 max-w-3xl text-lg leading-8 text-gray-400 dark:text-gray-600">
+        <p className="mt-8 max-w-3xl text-lg leading-8 text-gray-400 dark:text-gray-400">
           I create responsive and user-friendly websites with a strong focus on
           clean code, modern UI and great user experience. My development stack
           includes React, JavaScript, Tailwind CSS, Node.js and Supabase.
@@ -24,18 +24,18 @@ const About = () => {
 
         <div className="!mt-10 grid gap-6 sm:grid-cols-3">
           <div className="rounded-2xl border border-white/10 dark:border-black/10 bg-white/[0.03] !p-6 dark:bg-[#1b2fbf]/10">
-            <p className="text-3xl font-bold dark:text-gray-600">10+</p>
-            <p className="mt-2 text-gray-500 dark:text-black">Projects</p>
+            <p className="text-3xl font-bold dark:text-gray-400">10+</p>
+            <p className="mt-2 text-gray-300 dark:text-black">Projects</p>
           </div>
 
           <div className="rounded-2xl border border-white/10 dark:border-black/10 bg-white/[0.03] !p-6 dark:bg-[#1b2fbf]/10">
-            <p className="text-3xl font-bold dark:text-gray-600">5+</p>
-            <p className="mt-2 text-gray-500 dark:text-black">Technologies</p>
+            <p className="text-3xl font-bold dark:text-gray-400">5+</p>
+            <p className="mt-2 text-gray-300 dark:text-black">Technologies</p>
           </div>
 
           <div className="rounded-2xl border border-white/10 dark:border-black/10 bg-white/[0.03] !p-6 dark:bg-[#1b2fbf]/10">
-            <p className="text-3xl font-bold dark:text-gray-600">100%</p>
-            <p className="mt-2 text-gray-500 dark:text-black">Commitment</p>
+            <p className="text-3xl font-bold dark:text-gray-400">100%</p>
+            <p className="mt-2 text-gray-300 dark:text-black">Commitment</p>
           </div>
         </div>
       </div>

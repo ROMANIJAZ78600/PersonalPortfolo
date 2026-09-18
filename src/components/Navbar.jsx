@@ -41,6 +41,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             Lets Talk
           </a>
           <button
+            aria-label={
+              darkMode ? "Switch to light mode" : "Switch to dark mode"
+            }
             onClick={() => setDarkMode((prev) => !prev)}
             className="rounded-full border border-gray-300 p-2 transition hover:border-cyan-400 dark:border-white/20"
           >
@@ -52,7 +55,12 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           className="md:hidden z-100"
           onClick={() => setShowMenu((prev) => !prev)}
         >
-          <button className="text-gray-400 dark:text-black focus:outline-none">
+          <button
+            aria-label={
+              showMenu ? "Close navigation menu" : "Open navigation menu"
+            }
+            className="text-white dark:text-black focus:outline-none"
+          >
             <svg
               className="h-9 w-9"
               fill="none"
@@ -105,6 +113,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             </a>
 
             <button
+              aria-label={
+                darkMode ? "Switch to light mode" : "Switch to dark mode"
+              }
               onClick={() => setDarkMode((prev) => !prev)}
               className="rounded-full border border-gray-300 p-2 transition hover:border-cyan-400 dark:border-white/20"
             >
