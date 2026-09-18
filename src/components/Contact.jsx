@@ -15,15 +15,17 @@ const Contact = () => {
         </h2>
 
         <p className="!mx-auto !mt-6 max-w-xl text-gray-400 dark:text-gray-400">
-          Have a project in mind? Send me a message and let's discuss how I can
-          help.
+          Looking for a React.js or MERN Stack Web Developer in Lahore,
+          Pakistan? I build responsive and modern web applications for
+          businesses and personal projects. Get in touch to discuss your next
+          website or web application.
         </p>
 
         <a
-          href="mailto:your@email.com"
+          href="romanijaz31@email.com"
           className="!mt-8 inline-block rounded-full bg-cyan-400 dark:bg-[#1b2fbf] dark:text-white !px-8 !py-4 font-semibold text-black transition hover:bg-cyan-300 dark:hover:bg-[#1b2fbf]"
         >
-          Get In Touch
+          Contact Roman Ijaz
         </a>
       </div>
     </section>

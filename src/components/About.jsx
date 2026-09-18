@@ -16,10 +16,12 @@ const About = () => {
           </span>
         </h2>
 
-        <p className="mt-8 max-w-3xl text-lg leading-8 text-gray-400 dark:text-gray-400">
-          I create responsive and user-friendly websites with a strong focus on
-          clean code, modern UI and great user experience. My development stack
-          includes React, JavaScript, Tailwind CSS, Node.js and Supabase.
+        <p className="mt-8 max-w-3xl text-lg leading-8 text-gray-300 dark:text-gray-400">
+          I’m Roman Ijaz, a React.js and MERN Stack Web Developer from Lahore,
+          Pakistan. I build responsive, user-friendly and high-performance web
+          applications with a strong focus on clean code, modern UI and great
+          user experience. My development stack includes React.js, JavaScript,
+          Tailwind CSS, Node.js, Express.js, MongoDB and Supabase.
         </p>
 
         <div className="!mt-10 grid gap-6 sm:grid-cols-3">

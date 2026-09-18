@@ -2,22 +2,24 @@ const projects = [
   {
     title: "Real Estate Website",
     description:
-      "Modern real estate platform with responsive UI and property listings.",
-    tech: ["React", "Tailwind", "Node.js"],
+      "A responsive real estate website built with React and Node.js for showcasing property listings with a modern and user-friendly interface.",
+    tech: ["React", "Tailwind CSS", "Node.js"],
     link: "https://real-estate-786.vercel.app/",
   },
+
   {
-    title: "Trippy",
+    title: "Trippy Travel Website",
     description:
-      "A travel website that provides information about various destinations and travel tips.",
-    tech: ["React", "Vite", "Tailwind"],
+      "A responsive travel website built with React and Tailwind CSS that presents travel destinations and useful information through a modern interface.",
+    tech: ["React", "Vite", "Tailwind CSS"],
     link: "https://trippy-lake.vercel.app/",
   },
+
   {
-    title: "E commerce",
+    title: "E-Commerce Website",
     description:
-      "Fully functional e-commerce website with product catalog and shopping cart.",
-    tech: ["React", "Tailwind", "Node.js", "expressJS"],
+      "A responsive e-commerce website built with React, Node.js and Express.js featuring product listings and a shopping cart experience.",
+    tech: ["React", "Tailwind CSS", "Node.js", "Express.js"],
     link: "https://myshopo2.vercel.app/",
   },
 ];
@@ -51,7 +53,9 @@ const Projects = () => {
                   {project.title}
                 </h3>
 
-                <p className="!mt-3 text-gray-300">{project.description}</p>
+                <p className="!mt-3 text-gray-300 dark:text-gray-400">
+                  {project.description}
+                </p>
 
                 <div className="!mt-5 flex flex-wrap gap-2">
                   {project.tech.map((item) => (
@@ -68,7 +72,7 @@ const Projects = () => {
                   href={project.link}
                   className="!mt-6 inline-block text-sm font-medium text-cyan-400 dark:text-[#1b2fbf] hover:underline"
                 >
-                  View Project →
+                  View {project.title} →
                 </a>
               </div>
             </article>
